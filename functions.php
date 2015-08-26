@@ -122,6 +122,7 @@ function gulp_demo_theme_scripts() {
 
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), 'v3.3.5', true );
 	wp_enqueue_script('gulp-demo-scripts', get_template_directory_uri() . '/js/jquery.gulp-demo.js', array( 'jquery' ), '20150826', true );
+	wp_enqueue_style('goggle-webfonts', '//fonts.googleapis.com/css?family=Pirata+One');
 }
 add_action( 'wp_enqueue_scripts', 'gulp_demo_theme_scripts' );
 

@@ -19,6 +19,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isotrope/gulp_demo.git"
+  },
   "keywords": [
     "WP Crowd",
     "Gulp",
